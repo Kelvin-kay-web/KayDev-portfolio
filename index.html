@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KayDev Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wghr@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <h2>KayDev</h2>
+        <ul>
+            <li><a href="#hero">Hero</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section hero" id="hero">
+        <div>
+            <h1 class="title">I build modern digital experience</h1>
+            <p class="subtitle">Web Developer . Designer . Creator</p>
+        </div>
+
+        <div class="hero-image">
+            <img src="1.jpg - Copy.png" alt="My Photo">
+        </div>
+    </section>
+
+    <section class="section" id="service">
+        <div>
+            <h2 class="section-title">Service</h2>
+
+            <div class="service-grid">
+                <div class="service">
+                <h3>Web Design</h3>
+                <p>Clean, modern and responsive website</p>
+            </div>
+
+            <div class="service">
+                <h3>UI/UX</h3>
+                <p>Design focused on user experience</p>
+            </div>
+
+            <div class="service">
+                <h3>Branding</h3>
+                <p>Creativity identity for your business</p>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <section class="section dark" id="portfolio">
+        <div>
+            <h2 class="section-title">Selected Work</h2>
+
+            <div class="portfolio-grid">
+                <div class="project">
+                    <img src="https://picsum.photos/500/400?1">
+                    <div class="overlay">E-commerce Website</div>
+                </div>
+
+                <div class="project">
+                    <img src="bus2.jpg (2).jpg">
+                    <div class="overlay">Business Website</div>
+                </div>
+
+                <div class="project">
+                    <img src="bus1.jpg (2).jpg">
+                    <div class="overlay">Portfolio Website</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Let's work together</h2>
+
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Enter Email Address" required>
+                <textarea placeholder="Tell me about your project"></textarea>
+                <button class="btnn"><a href="https://wa.me/233500502823">Send Message</a></button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
